@@ -4,6 +4,6 @@
  - Add a MCU capable of BT
  - Enhance the entire radio with, for example LCD, modern AMP IC
 
-[Schematic](https://github.com/Pepa1ZdepaDotC/Tesla_sextant_BT/blob/main/Tesla_rev_2/Tesla_sextant_BT/Tesla_sextant_BT.pdf)
+[Schematic](https://github.com/Pepa1ZdepaDotC/Tesla_BT/blob/main/Tesla_rev_2/Tesla_sextant_BT.pdf)
 
 
