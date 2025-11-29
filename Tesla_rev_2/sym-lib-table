@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Tesla_sextant_BT_Library")(type "KiCad")(uri "${KIPRJMOD}/Tesla_sextant_BT_Library.kicad_sym")(options "")(descr ""))
+)
