@@ -6,7 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Tesla sextant BT")
-		(rev "2.0")
+		(date "2025-11-30")
+		(rev "2.1")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_Coaxial"
@@ -2861,6 +2862,18 @@
 		)
 		(uuid "1bcebf19-9096-42fd-a865-1d8540028987")
 	)
+	(text "87,5 - 108MHz to 65,5 - 74 MHz convertor"
+		(exclude_from_sim no)
+		(at 206.375 215.9 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "60e9e518-410b-44ba-a230-126813ea311c")
+	)
 	(text "Front pannel PCB"
 		(exclude_from_sim no)
 		(at 102.235 90.17 0)
@@ -4762,7 +4775,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02269077-de78-4e90-8f52-d43e19d55e0c")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR08"
 			(at 173.99 253.365 0)
 			(effects
 				(font
@@ -4812,7 +4825,7 @@
 		(instances
 			(project ""
 				(path "/8e7bde30-d14b-44a7-a566-3173755ec64c"
-					(reference "#PWR015")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -4828,7 +4841,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "16d8ea82-4766-4bef-ada3-f3760c0306b0")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR025"
 			(at 276.86 253.365 0)
 			(effects
 				(font
@@ -4878,7 +4891,7 @@
 		(instances
 			(project "Tesla_sextant_BT"
 				(path "/8e7bde30-d14b-44a7-a566-3173755ec64c"
-					(reference "#PWR016")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -4895,7 +4908,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "181b1723-d519-4e85-8409-8f340b63b620")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR014"
 			(at 177.8 186.055 0)
 			(effects
 				(font
@@ -4945,7 +4958,7 @@
 		(instances
 			(project "Tesla_sextant_BT"
 				(path "/8e7bde30-d14b-44a7-a566-3173755ec64c"
-					(reference "#PWR09")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -5026,7 +5039,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "209e1693-626c-46a3-bc76-07126b82d3b5")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR010"
 			(at 177.8 100.33 0)
 			(effects
 				(font
@@ -5076,7 +5089,7 @@
 		(instances
 			(project "Tesla_sextant_BT"
 				(path "/8e7bde30-d14b-44a7-a566-3173755ec64c"
-					(reference "#PWR02")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -5240,7 +5253,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2db91c8d-dccb-4045-a531-8430db2ae59d")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR017"
 			(at 209.55 272.415 0)
 			(effects
 				(font
@@ -5290,7 +5303,7 @@
 		(instances
 			(project ""
 				(path "/8e7bde30-d14b-44a7-a566-3173755ec64c"
-					(reference "#PWR019")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -5385,7 +5398,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f056ef0-71b7-49c5-b88a-0cd8a12d4975")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR023"
 			(at 259.715 171.45 0)
 			(effects
 				(font
@@ -5435,7 +5448,7 @@
 		(instances
 			(project ""
 				(path "/8e7bde30-d14b-44a7-a566-3173755ec64c"
-					(reference "#PWR07")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -5451,7 +5464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "306ffba4-245f-468a-a0b1-dcf0c75e69da")
-		(property "Reference" "J3"
+		(property "Reference" "J9"
 			(at 326.39 126.3649 0)
 			(effects
 				(font
@@ -5505,7 +5518,7 @@
 		(instances
 			(project "Tesla_sextant_BT"
 				(path "/8e7bde30-d14b-44a7-a566-3173755ec64c"
-					(reference "J3")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -5584,7 +5597,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "338c5832-da3d-41fb-acf0-c8baee48898b")
-		(property "Reference" "J4"
+		(property "Reference" "J2"
 			(at 138.43 142.2399 0)
 			(effects
 				(font
@@ -5641,7 +5654,7 @@
 		(instances
 			(project "Tesla_sextant_BT"
 				(path "/8e7bde30-d14b-44a7-a566-3173755ec64c"
-					(reference "J4")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -5658,7 +5671,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37b4d18c-b7da-4771-8ef9-ad20c6fd6416")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR07"
 			(at 161.29 241.935 0)
 			(effects
 				(font
@@ -5708,7 +5721,7 @@
 		(instances
 			(project ""
 				(path "/8e7bde30-d14b-44a7-a566-3173755ec64c"
-					(reference "#PWR012")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -5724,7 +5737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a8390f5-65f6-4300-950b-9a60d87817f1")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR04"
 			(at 104.775 278.765 0)
 			(effects
 				(font
@@ -5774,7 +5787,7 @@
 		(instances
 			(project ""
 				(path "/8e7bde30-d14b-44a7-a566-3173755ec64c"
-					(reference "#PWR025")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -5791,7 +5804,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b52e2d7-c6af-401d-9d52-134a970bee58")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR024"
 			(at 264.16 171.45 0)
 			(effects
 				(font
@@ -5841,7 +5854,7 @@
 		(instances
 			(project "Tesla_sextant_BT"
 				(path "/8e7bde30-d14b-44a7-a566-3173755ec64c"
-					(reference "#PWR08")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -5857,7 +5870,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ceeb4a8-48ce-4422-87b3-182c0cc1dbff")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR015"
 			(at 189.23 272.415 0)
 			(effects
 				(font
@@ -5907,7 +5920,7 @@
 		(instances
 			(project ""
 				(path "/8e7bde30-d14b-44a7-a566-3173755ec64c"
-					(reference "#PWR018")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -5923,7 +5936,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44e69cf6-5515-4cfa-9d3d-7d24cdad8a2c")
-		(property "Reference" "C12"
+		(property "Reference" "C11"
 			(at 259.08 259.7149 0)
 			(effects
 				(font
@@ -5985,7 +5998,7 @@
 		(instances
 			(project "Tesla_sextant_BT"
 				(path "/8e7bde30-d14b-44a7-a566-3173755ec64c"
-					(reference "C12")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -6001,7 +6014,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b286bd2-89a8-4a0d-9405-586481e47775")
-		(property "Reference" "C9"
+		(property "Reference" "C10"
 			(at 258.318 252.095 0)
 			(effects
 				(font
@@ -6063,7 +6076,7 @@
 		(instances
 			(project "Tesla_sextant_BT"
 				(path "/8e7bde30-d14b-44a7-a566-3173755ec64c"
-					(reference "C9")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -6079,7 +6092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b4926be-73ec-4ca7-9b2c-0ec26cf3a615")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR019"
 			(at 241.3 225.425 0)
 			(effects
 				(font
@@ -6129,7 +6142,7 @@
 		(instances
 			(project ""
 				(path "/8e7bde30-d14b-44a7-a566-3173755ec64c"
-					(reference "#PWR010")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -6606,7 +6619,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e044974-ac5f-4280-8c6f-bd043708d839")
-		(property "Reference" "C4"
+		(property "Reference" "C3"
 			(at 179.07 234.315 90)
 			(effects
 				(font
@@ -6666,7 +6679,7 @@
 		(instances
 			(project "Tesla_sextant_BT"
 				(path "/8e7bde30-d14b-44a7-a566-3173755ec64c"
-					(reference "C4")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -6682,7 +6695,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5eb41612-db31-4d5a-825f-d1d2fa726d17")
-		(property "Reference" "J9"
+		(property "Reference" "J8"
 			(at 285.115 244.4749 0)
 			(effects
 				(font
@@ -6736,7 +6749,7 @@
 		(instances
 			(project ""
 				(path "/8e7bde30-d14b-44a7-a566-3173755ec64c"
-					(reference "J9")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -6752,7 +6765,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f8ae466-8404-4cdf-a13e-12089739e06c")
-		(property "Reference" "C3"
+		(property "Reference" "C9"
 			(at 251.46 230.5049 0)
 			(effects
 				(font
@@ -6814,7 +6827,7 @@
 		(instances
 			(project "Tesla_sextant_BT"
 				(path "/8e7bde30-d14b-44a7-a566-3173755ec64c"
-					(reference "C3")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -6908,7 +6921,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6645195d-236d-4538-ade9-e9cc9363374d")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR02"
 			(at 52.07 278.765 0)
 			(effects
 				(font
@@ -6958,7 +6971,7 @@
 		(instances
 			(project ""
 				(path "/8e7bde30-d14b-44a7-a566-3173755ec64c"
-					(reference "#PWR023")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -6974,7 +6987,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "682ab329-6cbd-43df-a9b2-198d6f1736b1")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR01"
 			(at 24.765 278.765 0)
 			(effects
 				(font
@@ -7024,7 +7037,7 @@
 		(instances
 			(project ""
 				(path "/8e7bde30-d14b-44a7-a566-3173755ec64c"
-					(reference "#PWR022")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -7041,7 +7054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6dd93b4c-37f7-4ade-b3ce-5a093a9e345e")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR013"
 			(at 177.8 167.64 0)
 			(effects
 				(font
@@ -7091,7 +7104,7 @@
 		(instances
 			(project "Tesla_sextant_BT"
 				(path "/8e7bde30-d14b-44a7-a566-3173755ec64c"
-					(reference "#PWR06")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -7182,7 +7195,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70eb1127-eed2-492a-9229-1bbc56773e3e")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR022"
 			(at 255.27 272.415 0)
 			(effects
 				(font
@@ -7232,7 +7245,7 @@
 		(instances
 			(project ""
 				(path "/8e7bde30-d14b-44a7-a566-3173755ec64c"
-					(reference "#PWR021")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -7248,7 +7261,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7102c87e-3fc0-48bb-83e8-d404cdbf2fd3")
-		(property "Reference" "C10"
+		(property "Reference" "C1"
 			(at 177.8 258.4449 0)
 			(effects
 				(font
@@ -7310,7 +7323,7 @@
 		(instances
 			(project "Tesla_sextant_BT"
 				(path "/8e7bde30-d14b-44a7-a566-3173755ec64c"
-					(reference "C10")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -7326,7 +7339,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "711e9aca-b5c3-4401-a168-a1d71d8d8f03")
-		(property "Reference" "C7"
+		(property "Reference" "C4"
 			(at 184.15 250.825 90)
 			(effects
 				(font
@@ -7386,7 +7399,7 @@
 		(instances
 			(project "Tesla_sextant_BT"
 				(path "/8e7bde30-d14b-44a7-a566-3173755ec64c"
-					(reference "C7")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -7469,7 +7482,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "775a12af-3c62-4daf-b5af-1a1e9d3c5abd")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR018"
 			(at 226.06 272.415 0)
 			(effects
 				(font
@@ -7519,7 +7532,7 @@
 		(instances
 			(project ""
 				(path "/8e7bde30-d14b-44a7-a566-3173755ec64c"
-					(reference "#PWR020")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -7609,7 +7622,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82736f83-a5d8-46e8-8989-d60df2e6b503")
-		(property "Reference" "C11"
+		(property "Reference" "C7"
 			(at 229.87 259.7149 0)
 			(effects
 				(font
@@ -7671,7 +7684,7 @@
 		(instances
 			(project "Tesla_sextant_BT"
 				(path "/8e7bde30-d14b-44a7-a566-3173755ec64c"
-					(reference "C11")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -7688,7 +7701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91e63d1d-2b15-4768-9635-76e8dbd8ec0b")
-		(property "Reference" "J2"
+		(property "Reference" "J4"
 			(at 167.64 105.4099 0)
 			(effects
 				(font
@@ -7757,7 +7770,7 @@
 		(instances
 			(project "Tesla_sextant_BT"
 				(path "/8e7bde30-d14b-44a7-a566-3173755ec64c"
-					(reference "J2")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -7773,7 +7786,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "939f98f2-9d8c-4265-89d7-1b318b8d0730")
-		(property "Reference" "C8"
+		(property "Reference" "C6"
 			(at 229.87 252.0949 0)
 			(effects
 				(font
@@ -7835,7 +7848,7 @@
 		(instances
 			(project "Tesla_sextant_BT"
 				(path "/8e7bde30-d14b-44a7-a566-3173755ec64c"
-					(reference "C8")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -7918,7 +7931,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b46d70c-dd8d-4484-9423-4cdca5ab4a86")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR06"
 			(at 129.54 121.92 0)
 			(effects
 				(font
@@ -7968,7 +7981,7 @@
 		(instances
 			(project "Tesla_sextant_BT"
 				(path "/8e7bde30-d14b-44a7-a566-3173755ec64c"
-					(reference "#PWR03")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -7985,7 +7998,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0c343ed-336c-4666-ab20-7f2baeaa4a79")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR012"
 			(at 177.8 133.985 0)
 			(effects
 				(font
@@ -8035,7 +8048,7 @@
 		(instances
 			(project ""
 				(path "/8e7bde30-d14b-44a7-a566-3173755ec64c"
-					(reference "#PWR05")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -8122,7 +8135,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5f371df-4aa3-4909-9e66-962208969d1b")
-		(property "Reference" "J6"
+		(property "Reference" "J7"
 			(at 248.285 157.4799 0)
 			(effects
 				(font
@@ -8176,7 +8189,7 @@
 		(instances
 			(project ""
 				(path "/8e7bde30-d14b-44a7-a566-3173755ec64c"
-					(reference "J6")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -8193,7 +8206,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9030f67-572d-4b01-8a9c-ec2f5f487142")
-		(property "Reference" "C1"
+		(property "Reference" "C2"
 			(at 179.07 222.885 90)
 			(effects
 				(font
@@ -8253,7 +8266,7 @@
 		(instances
 			(project "Tesla_sextant_BT"
 				(path "/8e7bde30-d14b-44a7-a566-3173755ec64c"
-					(reference "C1")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -8269,7 +8282,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a983fbcc-7419-4533-81fe-57c6dde31379")
-		(property "Reference" "C6"
+		(property "Reference" "C12"
 			(at 260.35 236.855 90)
 			(effects
 				(font
@@ -8329,7 +8342,7 @@
 		(instances
 			(project "Tesla_sextant_BT"
 				(path "/8e7bde30-d14b-44a7-a566-3173755ec64c"
-					(reference "C6")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -8346,7 +8359,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9ee82ef-5cd5-4aa9-b175-b022a0c588c0")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR011"
 			(at 177.8 121.92 0)
 			(effects
 				(font
@@ -8396,7 +8409,7 @@
 		(instances
 			(project "Tesla_sextant_BT"
 				(path "/8e7bde30-d14b-44a7-a566-3173755ec64c"
-					(reference "#PWR04")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -8412,7 +8425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b41b1b4c-0b23-4a66-90ab-db0a8d684490")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR03"
 			(at 78.74 278.765 0)
 			(effects
 				(font
@@ -8462,7 +8475,86 @@
 		(instances
 			(project ""
 				(path "/8e7bde30-d14b-44a7-a566-3173755ec64c"
-					(reference "#PWR024")
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 241.3 231.775 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b57758dc-bfda-4bbc-9137-1184a345c8a8")
+		(property "Reference" "C47"
+			(at 238.125 229.6159 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 238.125 232.1559 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.3348 235.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 231.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 241.3 231.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part_num" "EEEFK1V100UR"
+			(at 238.125 234.315 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "f29e4bd0-3659-4be1-b4c0-204e4a29ff6a")
+		)
+		(pin "2"
+			(uuid "6d3271a2-85de-4ff1-b78e-4571e11b1f0d")
+		)
+		(instances
+			(project "Tesla_sextant_BT"
+				(path "/8e7bde30-d14b-44a7-a566-3173755ec64c"
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -8478,7 +8570,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b63dec15-770c-445c-b4bf-b7442abe4621")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR021"
 			(at 247.65 241.935 0)
 			(effects
 				(font
@@ -8528,85 +8620,7 @@
 		(instances
 			(project ""
 				(path "/8e7bde30-d14b-44a7-a566-3173755ec64c"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 241.3 231.775 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bdf0514f-0804-4e6b-bf05-af75229e6a19")
-		(property "Reference" "C2"
-			(at 232.156 230.505 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 232.156 233.045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
-			(at 242.2652 235.585 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 241.3 231.775 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 241.3 231.775 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 241.3 231.775 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2bce5334-0415-4bd7-87ea-efc01f1a6e6c")
-		)
-		(pin "1"
-			(uuid "4cccaaf6-038c-4318-8fa0-b728b2f31c89")
-		)
-		(instances
-			(project "Tesla_sextant_BT"
-				(path "/8e7bde30-d14b-44a7-a566-3173755ec64c"
-					(reference "C2")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -8622,7 +8636,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4a8d7a7-4a09-4f48-8559-00618b292c3f")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR05"
 			(at 129.54 100.33 0)
 			(effects
 				(font
@@ -8672,7 +8686,7 @@
 		(instances
 			(project "Tesla_sextant_BT"
 				(path "/8e7bde30-d14b-44a7-a566-3173755ec64c"
-					(reference "#PWR01")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -8824,7 +8838,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4695098-30d9-46b6-ad9c-fd0df5f06379")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR09"
 			(at 173.99 272.415 0)
 			(effects
 				(font
@@ -8874,7 +8888,7 @@
 		(instances
 			(project ""
 				(path "/8e7bde30-d14b-44a7-a566-3173755ec64c"
-					(reference "#PWR017")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -8891,7 +8905,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e80e1237-424c-4e9b-a952-ce65a23456ee")
-		(property "Reference" "J7"
+		(property "Reference" "J6"
 			(at 167.005 171.4499 0)
 			(effects
 				(font
@@ -8954,7 +8968,7 @@
 		(instances
 			(project ""
 				(path "/8e7bde30-d14b-44a7-a566-3173755ec64c"
-					(reference "J7")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -8970,7 +8984,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eef43d93-c579-452c-98c8-43913aa80f28")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR020"
 			(at 241.3 241.935 0)
 			(effects
 				(font
@@ -9020,7 +9034,7 @@
 		(instances
 			(project ""
 				(path "/8e7bde30-d14b-44a7-a566-3173755ec64c"
-					(reference "#PWR013")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -9037,7 +9051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2266f6b-3142-417a-8aea-a4041a9d40d9")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR016"
 			(at 195.58 236.855 0)
 			(effects
 				(font
@@ -9087,7 +9101,7 @@
 		(instances
 			(project ""
 				(path "/8e7bde30-d14b-44a7-a566-3173755ec64c"
-					(reference "#PWR011")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -9104,7 +9118,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "feea303d-6dd4-422c-b678-6c04dd6cf11a")
-		(property "Reference" "J8"
+		(property "Reference" "J3"
 			(at 157.48 229.5281 0)
 			(effects
 				(font
@@ -9158,7 +9172,7 @@
 		(instances
 			(project ""
 				(path "/8e7bde30-d14b-44a7-a566-3173755ec64c"
-					(reference "J8")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -9546,7 +9560,7 @@
 				(justify left)
 			)
 		)
-		(pin "VO+" output
+		(pin "AUDIO_O+" output
 			(at 306.07 126.365 0)
 			(uuid "b5dd1b77-6e13-4797-b056-c374e76f9421")
 			(effects
@@ -9556,7 +9570,7 @@
 				(justify right)
 			)
 		)
-		(pin "VO-" output
+		(pin "AUDIO_O-" output
 			(at 306.07 128.905 0)
 			(uuid "2bca4734-f5f1-4978-855f-1820965ee39c")
 			(effects

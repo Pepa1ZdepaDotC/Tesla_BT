@@ -474,6 +474,54 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "AUDIO",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "GPIO",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "I2C",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "I2S",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "POWER",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 7,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "RADIO",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "UART",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
     "meta": {
@@ -481,7 +529,80 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "POWER",
+        "pattern": "+*"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/POWER/POW*"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "V*"
+      },
+      {
+        "netclass": "AUDIO",
+        "pattern": "/DAC_AMP/OU*"
+      },
+      {
+        "netclass": "AUDIO",
+        "pattern": "/DAC_AMP/DAC_L{sl*"
+      },
+      {
+        "netclass": "AUDIO",
+        "pattern": "/DAC_AMP/BU*"
+      },
+      {
+        "netclass": "AUDIO",
+        "pattern": "/DAC_AMP/AM*"
+      },
+      {
+        "netclass": "AUDIO",
+        "pattern": "/DAC_AMP/AUD*"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB/U*"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB/D*"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "/UA*"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "/MCU/I2*"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "/IO_PANEL/I2C*"
+      },
+      {
+        "netclass": "I2S",
+        "pattern": "/DAC_AMP/I2S*"
+      },
+      {
+        "netclass": "RADIO",
+        "pattern": "/RADI*"
+      },
+      {
+        "netclass": "RADIO",
+        "pattern": "/MCU/RA*"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/IO_PANEL/G*"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/MCU/GP*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -554,6 +675,12 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part_num",
+          "name": "Part_num",
           "show": false
         },
         {
