@@ -4,6 +4,6 @@
  - Add a MCU capable of BT
  - Enhance operation 
 
-[Schematic](https://github.com/Pepa1ZdepaDotC/Tesla_BT/blob/main/Tesla_rev_2/Tesla_sextant_BT.pdf)
+[Schematic PDF](https://github.com/Pepa1ZdepaDotC/Tesla_BT/blob/main/Tesla_rev_2/Tesla_sextant_BT.pdf)
 
 
