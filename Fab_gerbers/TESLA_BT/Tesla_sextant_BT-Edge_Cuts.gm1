@@ -1,11 +1,11 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,9.0.7*%
-%TF.CreationDate,2026-02-10T21:18:12+01:00*%
-%TF.ProjectId,Tesla_sextant_BT,5465736c-615f-4736-9578-74616e745f42,2.1*%
+%TF.CreationDate,2026-02-22T13:56:36+01:00*%
+%TF.ProjectId,Tesla_sextant_BT,5465736c-615f-4736-9578-74616e745f42,2.2*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Profile,NP*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 9.0.7) date 2026-02-10 21:18:12*
+G04 Created by KiCad (PCBNEW 9.0.7) date 2026-02-22 13:56:36*
 %MOMM*%
 %LPD*%
 G01*

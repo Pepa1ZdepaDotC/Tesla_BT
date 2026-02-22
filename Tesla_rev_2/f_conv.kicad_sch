@@ -4113,7 +4113,7 @@
 				)
 			)
 		)
-		(property "Value" "870nF"
+		(property "Value" "870nH"
 			(at 180.975 82.55 90)
 			(effects
 				(font

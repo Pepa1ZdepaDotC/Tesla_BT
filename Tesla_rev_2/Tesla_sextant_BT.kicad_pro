@@ -64,6 +64,10 @@
           ""
         ],
         [
+          "lib_footprint_mismatch|196850000|81890000|0867705f-2dfb-4825-82d7-95eb222debf6|00000000-0000-0000-0000-000000000000",
+          "Thermal vias too small. 0.2; now 0.3"
+        ],
+        [
           "silk_edge_clearance|198450000|72790000|b14e087c-6f34-4573-ade7-ed535e1c843e|277af31a-0130-478c-804d-aead6a8f3f4f",
           ""
         ],
@@ -203,6 +207,7 @@
         0.0,
         0.2,
         0.3,
+        0.35,
         0.5,
         0.75,
         1.0
@@ -568,7 +573,7 @@
         "pcb_color": "rgb(0, 255, 0)",
         "priority": 5,
         "schematic_color": "rgb(0, 255, 0)",
-        "track_width": 0.3,
+        "track_width": 0.35,
         "wire_width": 10
       },
       {
@@ -638,6 +643,10 @@
       {
         "netclass": "AUDIO",
         "pattern": "/DAC*/AUD*"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "/freq_converter/RF_IN+"
       }
     ]
   },
@@ -688,13 +697,13 @@
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -718,7 +727,7 @@
           "group_by": false,
           "label": "Part_num",
           "name": "Part_num",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -736,7 +745,7 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
