@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Tesla sextant BT POWER")
-		(date "2026-02-10")
-		(rev "2.3")
+		(date "2026-02-24")
+		(rev "2.4")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -5434,7 +5434,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 228.727 74.295 90)
 			(effects
 				(font
@@ -6794,7 +6794,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 237.617 74.295 90)
 			(effects
 				(font
@@ -9568,7 +9568,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 69.342 138.43 90)
 			(effects
 				(font
@@ -10505,7 +10505,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 69.342 146.05 90)
 			(effects
 				(font

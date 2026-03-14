@@ -5130,6 +5130,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/verified_NHD-C0220BiZ-FSRGB-FBW-3VM.STEP"
+			(offset
+				(xyz 0 -3.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad_TopBottom"
 		(layer "F.Cu")

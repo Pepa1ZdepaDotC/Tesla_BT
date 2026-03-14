@@ -516,7 +516,7 @@
       "plot": "../Fab_gerbers/FRONT_PANEL/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../Step_3D_export/Front_Panel_simple.step",
       "svg": "",
       "vrml": ""
     },
@@ -614,7 +614,7 @@
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
