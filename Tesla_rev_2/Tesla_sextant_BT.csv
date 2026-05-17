@@ -1,64 +1,62 @@
-"Reference","Value","Footprint","Datasheet","Qty","Part_num","DNP","Exclude from BOM"
-"C1,C9,C14,C21,C27,C28,C29,C30,C36,C37,C38","100nF","Capacitor_SMD:C_0805_2012Metric","~","11","","",""
-"C2,C3,C4,C5,C10,C12,C13,C17,C22,C25,C26","10uF","Capacitor_SMD:C_0805_2012Metric","~","11","","",""
-"C6,C7","2.2nF","Capacitor_SMD:C_0805_2012Metric","~","2","","",""
-"C8,C11","2.2uF","Capacitor_SMD:C_0805_2012Metric","~","2","","",""
-"C15,C16","470nF","Capacitor_SMD:C_0805_2012Metric","~","2","","",""
-"C18,C19,C20","10uF","Capacitor_SMD:C_0805_2012Metric","~","3","","DNP","Excluded from BOM"
-"C23,C24","22uF","Capacitor_SMD:C_0805_2012Metric","~","2","","",""
-"C31","5.6pF","Capacitor_SMD:C_0603_1608Metric","~","1","","",""
-"C32","4.7pF","Capacitor_SMD:C_0603_1608Metric","~","1","","",""
-"C33","470pF","Capacitor_SMD:C_0603_1608Metric","~","1","","",""
-"C34","220pF","Capacitor_SMD:C_0603_1608Metric","~","1","","",""
-"C35","TBD","Capacitor_SMD:C_0805_2012Metric","~","1","","",""
-"C39,C43","2.2nF","Capacitor_SMD:C_0603_1608Metric","~","2","","",""
-"C40,C42","100nF","Capacitor_SMD:C_0603_1608Metric","~","2","","",""
-"C41","TBD","Capacitor_SMD:C_0805_2012Metric","~","1","","DNP",""
-"D1","WE-TVS-824015043","Package_TO_SOT_SMD:SOT-23-6","https://www.we-online.com/components/products/datasheet/824015043.pdf","1","","",""
-"D2","SMAJ5.0CA","Diode_SMD:D_SMA","https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet","1","","",""
-"D3","B220","Diode_SMD:D_SMB","http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf","1","","",""
-"D4,D6","B240","Diode_SMD:D_SMB","http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf","2","","",""
-"D5","SMAJ36A","Diode_SMD:D_SMA","https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet","1","","",""
-"D7,D8","SMAJ5.0A","Diode_SMD:D_SMA","https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet","2","","",""
-"H1,H2,H3,H4","MountingHole_Pad","MountingHole:MountingHole_4.3mm_M4_DIN965_Pad_TopBottom","~","4","","","Excluded from BOM"
-"J1,J3","Conn_01x05","Connector_PinSocket_2.00mm:PinSocket_1x05_P2.00mm_Vertical","~","2","","",""
-"J2,J4,J8,J9","Conn_01x02","Tesla_Library:Conn_Solder_1x02_SMD","~","4","","","Excluded from BOM"
-"J6","USB_C_Receptacle_USB2.0_16P","Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal","https://www.usb.org/sites/default/files/documents/usb_type-c.zip","1","USB4105-GF-A","",""
-"J7","Conn_01x03","Tesla_Library:Conn_Solder_1x03_SMD","~","1","","","Excluded from BOM"
-"JP1,JP2,JP3,JP4","SolderJumper_Open","Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm","~","4","","","Excluded from BOM"
-"K1","G6EU","Relay_THT:Relay_SPDT_Omron_G6E","https://www.omron.com/ecb/products/pdf/en-g6e.pdf","1","","",""
-"L1","2.2uH","Inductor_SMD:L_12x12mm_H8mm","https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-dr-high-power-density-high-efficiency-shielded-drum-core-power-inductors-data-sheet.pdf","1","DR125-2R2-R","DNP","Excluded from BOM"
-"L2","2.2uH","Inductor_SMD:L_12x12mm_H8mm","https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-dr-high-power-density-high-efficiency-shielded-drum-core-power-inductors-data-sheet.pdf","1","DR125-2R2-R","",""
-"L3","870nF","Inductor_SMD:L_0805_2012Metric","https://www.tme.eu/Document/0d0d46393a0d692394fde600dc165772/DL0805_1206.pdf","1","DL0805-0.082","",""
-"L4","1.3uF","Inductor_SMD:L_0805_2012Metric","~","1","DL0805-1.2","",""
-"L5","TBD","Inductor_SMD:L_0603_1608Metric","~","1","","",""
-"L6","12nH","Inductor_SMD:L_0603_1608Metric","~","1","LQG18HN12NJ00D","",""
-"L7","20nH","Inductor_SMD:L_0603_1608Metric","~","1","","",""
-"L8","18nH","Inductor_SMD:L_0603_1608Metric","~","1","","",""
-"Q1","BC817","Package_TO_SOT_SMD:SOT-23","https://www.onsemi.com/pub/Collateral/BC818-D.pdf","1","","",""
-"R1,R2,R3,R6,R7,R16","10K","Capacitor_SMD:C_0805_2012Metric","~","6","","",""
-"R4,R5","10K","Capacitor_SMD:C_0805_2012Metric","~","2","","DNP","Excluded from BOM"
-"R8,R10","470","Capacitor_SMD:C_0805_2012Metric","~","2","","",""
-"R9,R11","3.3K","Capacitor_SMD:C_0805_2012Metric","~","2","","",""
-"R12,R13","TBD","Resistor_SMD:R_0805_2012Metric","~","2","","",""
-"R14","7.5K","Capacitor_SMD:C_0805_2012Metric","~","1","","",""
-"R15,R17","1K","Capacitor_SMD:C_0805_2012Metric","~","2","","",""
-"R18","TBD","Capacitor_SMD:C_0805_2012Metric","~","1","","DNP","Excluded from BOM"
-"R19,R20","100K","Capacitor_SMD:C_0805_2012Metric","~","2","","",""
-"R21,R24","1R","Resistor_SMD:R_2512_6332Metric","https://www.tme.eu/Document/4f50d320a6ddacb273098f84373b6259/rezystor-smd.pdf","2","25121WF100KT4E","DNP","Excluded from BOM"
-"R22,R23","5.1K","Capacitor_SMD:C_0805_2012Metric","~","2","","",""
-"R25","120","Capacitor_SMD:C_0805_2012Metric","~","1","","",""
-"R26","820","Capacitor_SMD:C_0805_2012Metric","~","1","","",""
-"R27,R29,R30,R33","50","Capacitor_SMD:C_0805_2012Metric","~","4","","",""
-"R28","100","Capacitor_SMD:C_0805_2012Metric","~","1","","",""
-"R31,R32","5K","Capacitor_SMD:C_0805_2012Metric","~","2","","",""
-"TP1,TP2,TP3,TP4,TP5,TP6,TP7,TP8,TP9,TP10,TP11","TestPoint","TestPoint:TestPoint_Pad_D2.5mm","~","11","","","Excluded from BOM"
-"U1","ESP32-C3-WROOM-02","RF_Module:ESP32-C3-WROOM-02","https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf","1","","",""
-"U2","PCM5102A","Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm","https://www.ti.com/lit/ds/symlink/pcm5102a.pdf","1","","",""
-"U3","OPA2342","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","https://www.ti.com/lit/gpn/opa2342","1","","",""
-"U4","TPA0211","Package_SO:HVSSOP-8-1EP_3x3mm_P0.65mm_EP1.57x1.89mm_ThermalVias","https://www.ti.com/lit/gpn/tpa0211","1","","",""
-"U5","USBLC6-2SC6","Package_TO_SOT_SMD:SOT-23-6","https://www.st.com/resource/en/datasheet/usblc6-2.pdf","1","","",""
-"U6","AP63203WU","Package_TO_SOT_SMD:TSOT-23-6","https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf","1","","",""
-"U7","LD1117STR","Package_TO_SOT_SMD:SOT-223","","1","","",""
-"U8","AD831","Package_LCC:PLCC-20","https://www.analog.com/en/products/ad831.html?doc=ad831.pdf","1","","",""
-"Y1","OSC25M-3.3I/S5","Oscillator:Oscillator_SMD_Fordahl_DFAS15-4Pin_5.0x3.2mm_HandSoldering","https://www.tme.eu/Document/7a0ceeaed569e73bfa5cc28fb0e463dd/YIC-S7.pdf","1","","",""
+Reference,Value,Qty,Part_num
+"C1,C9,C21,C27,C28,C29,C30,C37,C38",100nF,9,
+"C2,C3,C4,C5,C10,C12,C13,C22,C25,C26",10uF,10,
+"C6,C7",2.2nF,2,
+"C8,C11",2.2uF,2,
+"C15,C16",470nF,2,
+"C23,C24",22uF,2,
+"C31,C34,C35",5pF,3,
+C32,130pF,1,
+"C33,C40,C42",100nF,3,
+C36,510pF,1,
+C39,44pF,1,
+C41,TBD,1,
+D1,WE-TVS-824015043,1,
+D2,SMAJ5.0CA,1,
+"D3,D4,D6",B240,3,
+D5,SMAJ36A,1,
+"D7,D8",SMAJ5.0A,2,
+"J1,J3",Conn_01x05,2,
+J6,USB_C_Receptacle_USB2.0_16P,1,USB4105-GF-A
+K1,G5V-1,1,
+L2,2.2uH,1,DR125-2R2-R
+L3,1uH,1,
+L4,40nH,1,
+L5,430nH,1,
+"L6,L7",MABAES0060,2,
+L8,900nH,1,
+Q1,BC817,1,
+"R1,R2,R3,R6,R7,R16",10K,6,
+"R8,R10",470,2,
+"R9,R11",3.3K,2,
+"R12,R13",TBD,2,
+R15,1K,1,
+"R22,R23",5.1K,2,
+R25,120,1,
+R26,820,1,
+"R27,R33,R34",75,3,
+R28,100,1,
+R29,200,1,
+R30,50,1,
+"R31,R32",5K,2,
+U1,ESP32-C3-WROOM-02,1,
+U2,PCM5102A,1,
+U4,TPA0211,1,
+U5,USBLC6-2SC6,1,
+U6,AP63203WU,1,
+U7,LD1117STR,1,
+U8,AD831,1,
+Y1,OSC25M-3.3I/S5,1,
+,,,
+"C1,C2,C3,C4",470nF,4,
+"C5,C6,C7",100nF,3,
+J1,Conn_01x05,1,
+J2,Conn_01x05,1,
+Q1,BC817,1,
+R1,0R,1,
+R2,1K,1,
+"R3,R4,R5,R6",10K,4,
+"SW1,SW2,SW3,SW4",SW_Push,4,
+"TP1,TP2",TestPoint,2,
+U1,NHD-C0220BIZ,1,
+U2,MCP23008-xSO,1,
